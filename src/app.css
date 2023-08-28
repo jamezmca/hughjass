@@ -34,3 +34,13 @@ h3,
         transform: rotate(360deg);
     }
 }
+
+.blur-load {
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    object-position: center;
+    object-fit: cover;
+}

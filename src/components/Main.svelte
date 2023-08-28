@@ -101,12 +101,14 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+        <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
-    </a>
+        </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
@@ -149,7 +151,8 @@
             </Step>
         </div>
     </section>
-    <section id="about"
+    <section
+        id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
         <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
