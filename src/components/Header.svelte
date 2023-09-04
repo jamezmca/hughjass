@@ -17,11 +17,15 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Hugh</b> <span class="">Jass</span>
+        <b class="font-bold poppins">Samuel</b> <span class="">Oak</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
-            <a href={tab.link} class="duration-200 hover:text-violet-400" target={index ===2 ? '_blank' : ''}>
+            <a
+                href={tab.link}
+                class="duration-200 hover:text-violet-400"
+                target={index === 2 ? "_blank" : ""}
+            >
                 <p>{tab.name}</p>
             </a>
         {/each}

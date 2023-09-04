@@ -3,10 +3,10 @@
 
     let steps = [
         {
-            name: "Occasional Poetry",
-            icon: "fa-solid fa-feather",
+            name: "Smoljames Store",
+            icon: "fa-solid fa-cart-shopping",
             description:
-                "Protector allows your to run, evaluate and share all your machine learning models and datasets.",
+                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
         },
         {
             name: "Utlimate Todos",
@@ -15,8 +15,8 @@
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
         {
-            name: "Exercises API",
-            icon: "fa-solid fa-dumbbell",
+            name: "Pokédex",
+            icon: "fa-solid fa-diagram-project",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
@@ -27,17 +27,17 @@
             metric: "10x",
             name: "a self taught developer",
             description:
-                "Conduct rigorous automated testing and auditing with Zetane Protector to ensure your AI solution is robust and trustable. Zetane Protector is a cloud-based tool that was engineered to significantly reduce the development cycle time required to bring AI projects to operational readiness with more confidence.",
+                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
             name: "a product design & UX finatic",
             description:
-                "Explain and diagnose machine learning models with the Zetane Insight Engine to eliminate black box limitations, gain deep actionable insights and quickly improve and validate your AI models.",
+                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
         {
             name: "an excellent communicator",
             description:
-                "Using our suite of software and proven expertise, Zetane can help you make your models more robust, accurate and adapted to your operational context.",
+                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
     ];
 </script>
@@ -51,7 +51,7 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Hugh</span> Jass
+                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
                 <br />Full Stack
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
@@ -112,15 +112,11 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Occassional Poetry is a <strong class="text-violet-400"
-                        >React.js SPA</strong
-                    >
-                    styled with
-                    <strong class="text-violet-400">TailwindCSS</strong>
-                    that allows a user to generate poety. Input a recipient, the
-                    style and feel of the poem, and have the
-                    <strong class="text-violet-400">ChatGPT</strong> generate your
-                    a perfect poem for any occasion.
+                    Smoljames Store is a a merchanising store created with <strong
+                        class="text-violet-400"
+                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
+                    > Commerce.js is a product CMS and Stripe is used for all transaction
+                    handling.
                 </p>
             </Step>
             <Step step={steps[1]}>
@@ -137,16 +133,14 @@
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The exercises API is an public <strong
-                        class="text-violet-400">JSON API</strong
+                    The Pokédex is a <strong class="text-violet-400"
+                        >SvelteKit & TailwindCSS</strong
                     >
-                    serving up all types of exercise related information. The API
-                    is a
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    application served up by an
-                    <strong class="text-violet-400">AWS EC2</strong> instance managed
-                    through AWS Copilot.
+                    web application, hosted on
+                    <strong class="text-violet-400">Netlify</strong>, that
+                    consumes and caches the
+                    <strong class="text-violet-400">Pokémon API</strong>
+                    to display all Pokémon information. Gotta catch them all!
                 </p>
             </Step>
         </div>
@@ -263,6 +257,9 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
         </div>
         <p class="mx-auto">So why not invest?</p>
     </section>
